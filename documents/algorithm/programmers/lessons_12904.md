@@ -45,9 +45,10 @@ function solution(n, m) {
     let length = numb.length;  
     let addVal = 1;
     
-    for (let i = 0; i < numb.length / 2; i++) {
-        if (numb.charAt(i) != numb.charAt(length - i - 1)) {
+    for (let j = 0; j < length / 2; i++) {
+        if (numb.charAt(j) != numb.charAt(length -j -1)) {
           addVal = 0;
+          break;
         }
     }
     
@@ -60,15 +61,4 @@ function solution(n, m) {
 }
 
 ```
-
-
-
-
-
-
-
-
-
-
-
 
