@@ -9,6 +9,9 @@ CLI 모드에서 테스트 결과를 JSON 포맷으로 요약해주고 HTML 로 
 - https://app.artillery.io/
 - Artillery Cloud 서비스로 테스트에 대한 시각화 및 분석 기능을 제공
 - 서비스가 더 발전하기 위해서 유료 모델을 도입한 것으로 보이며, 월 단위 구독 모델로 developer plan 은 제한적이지만 무료임
+- 사용법
+  - `artillery run test.yml --record --key YOUR_API_KEY`
+  - API KEY 는 서비스에 가입하면 확인할 수 있다
 
 ## 출처
 https://www.artillery.io/docs/reference/cli/report
